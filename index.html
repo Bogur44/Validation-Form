@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Mynerve&family=Permanent+Marker&family=Poppins:wght@300;400;500;600;700;800&family=Special+Elite&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">Unique Aqua</div>
+    </div>
+    <form class="form">
+        <div class="about">Have you had enough of boring water brands? Sign up for unique style and experience with our company high class bottles!</div>
+        <div class="inputs">
+            <h1>Lets do this!</h1>
+            <div class="textInputs">
+                <div class="row names">
+                    <div>
+                        <label for="firstName">FIRST NAME</label>
+                        <input minlength="1" id="firstName" class="firstName" placeholder="First name" required>
+                    </div>
+                    <div>
+                        <label for="lastName">LAST NAME</label>
+                        <input id="lastName" class="lastName" placeholder="Last name" required>
+                    </div>
+                </div>
+                <div class="row contacts">
+                    <div>
+                        <label for="mail">EMAIL</label>
+                        <input type="email" id="mail" class="mail" placeholder="Email address" required>
+                    </div>
+                    <div>
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" class="phone" placeholder="Phone number" required>
+                    </div>
+                </div>
+                <div class="row passwords">
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" class="password" required>
+                    </div>
+                    <div>
+                        <label for="conPassword">CONFIRM PASSWORD</label>
+                        <input type="password" class="conPassword" required>
+                    </div>
+                </div>
+            </div>
+            <div class="submitSection">
+                <button type="submit">CREATE ACCOUNT</button>
+                <p>Already have an account?
+                    <a href="#">Login</a>
+                </p>
+            </div>
+        </div>
+    </form>
+    <p class="author">Image created by quokkabottles</p>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
